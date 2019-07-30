@@ -54,7 +54,7 @@ def runClassifier():
         else:
             wrong += 1
             counter += 1
-        print(right, wrong, pred)
+        print(right, wrong, emojis[pred])
     return ((100*right)/(right + wrong))
 #Now run the classifier
 metascore = []
